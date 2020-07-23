@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcategories",
+  "info": {
+    "name": "subcategories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "subcategories_name": {
+      "type": "string"
+    },
+    "posts": {
+      "collection": "post"
+    }
+  }
+}

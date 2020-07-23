@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "post_id": {
+      "type": "uid"
+    },
+    "post_title": {
+      "type": "string"
+    },
+    "post_description": {
+      "type": "string"
+    },
+    "post_address": {
+      "type": "string"
+    },
+    "post_quantity": {
+      "type": "string"
+    },
+    "post_publish_date": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hospitals",
+  "info": {
+    "name": "Hospital"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hospital_id": {
+      "type": "uid"
+    },
+    "hospital_name": {
+      "type": "string"
+    },
+    "hospital_address": {
+      "type": "string"
+    },
+    "hospital_login": {
+      "type": "string"
+    },
+    "hospital_password": {
+      "type": "string"
+    },
+    "posts": {
+      "collection": "post"
+    }
+  }
+}

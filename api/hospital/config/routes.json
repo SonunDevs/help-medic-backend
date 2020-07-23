@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hospitals",
+      "handler": "hospital.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hospitals/count",
+      "handler": "hospital.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hospitals/:id",
+      "handler": "hospital.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hospitals",
+      "handler": "hospital.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hospitals/:id",
+      "handler": "hospital.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hospitals/:id",
+      "handler": "hospital.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
